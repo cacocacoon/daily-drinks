@@ -1,4 +1,17 @@
 import React from 'react'
-import './style.scss'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux';
 
-console.log(<div>Hello World!</div>)
+import DailyDrinks from './components/dailyDrinks/dailyDrinks'
+import store from './store';
+import './app.scss'
+
+function App() {
+    return (
+        <Provider store={store}>
+            <DailyDrinks />
+        </Provider>
+    )
+}
+
+ReactDOM.render(<App />, document.getElementById('app'))

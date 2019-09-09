@@ -1,0 +1,45 @@
+.order-detail {
+    padding: 0 28px;
+
+    label {
+        font-size: 20px;
+    }
+
+    input, textarea {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 7px;
+        font-size: 15px;
+        border: 2px rgba(5, 19, 20, 1) solid;
+        background-color: #112729;
+        color: inherit;
+
+        &:focus {
+            outline: none;
+            border: 2px #8ece5c solid;
+        }
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: flex-end;
+
+        .ok {
+            color: #8ece5c;
+    
+            &:hover {
+                background-color: #8ece5c;
+            }
+        }
+    
+        .cancel {
+            color: #ce4659;
+    
+            &:hover {
+                background-color: #ce4659;
+            }
+        }
+    }
+
+}

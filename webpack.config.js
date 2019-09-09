@@ -7,6 +7,7 @@ const BUILD_DIR = path.resolve(__dirname, 'docs')
 const config = {
     entry: APP_DIR + '/app.jsx',
     output: {
+        publicPath: '/',
         path: BUILD_DIR,
         filename: 'app.js'
     },
@@ -25,8 +26,9 @@ const config = {
 	},
     devtool: 'source-map',
     devServer: {
+        historyApiFallback: true,
 		inline: true,
-		contentBase: BUILD_DIR,
+        contentBase: BUILD_DIR,
 		port: 8008
     },
     plugins: [
