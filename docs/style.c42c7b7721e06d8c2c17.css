@@ -1,0 +1,14 @@
+.new-order-btn{float:right;color:#8ece5c;margin-top:6px}.new-order-btn:hover{background-color:#8ece5c}
+
+.delete-order-btn{float:right;color:#ce4659;margin-top:6px}.delete-order-btn:hover{background-color:#ce4659}.delete-order-btn:disabled{color:#5a5a5a}.delete-order-btn:disabled:hover{background-color:#5a5a5a}
+
+.order-list{display:flex;flex-direction:column}.order-list .order-list-head{font-size:20px;font-weight:bold}.order-list .order-list-head,.order-list .order{display:flex;padding:10px 28px;line-height:23px;color:inherit;text-decoration:none}.order-list .order-list-head .checked,.order-list .order .checked{flex-basis:5%;line-height:20px}.order-list .order-list-head .name,.order-list .order .name{flex-basis:30%}.order-list .order-list-head .price,.order-list .order .price{flex-basis:30%}.order-list .order-list-head .notes,.order-list .order .notes{flex-basis:35%}.order-list .order{cursor:pointer}.order-list .order:hover{background-color:#ce4659;color:#07161b}.order-list .order .checked{font-size:30px}.order-list .order .name,.order-list .order .price,.order-list .order .notes{font-size:15px}.order-list .order .notes{white-space:pre-wrap;word-wrap:break-word;max-height:51px;overflow-y:auto}.empty-order-list{font-style:italic;font-size:27px;font-weight:bold;margin:0 auto;max-width:130px;padding:8px;text-align:center}
+
+.order-detail{padding:0 28px}.order-detail label{font-size:20px}.order-detail input,.order-detail textarea{width:100%;margin-top:10px;margin-bottom:20px;padding:7px;font-size:15px;border:2px #051314 solid;background-color:#112729;color:inherit}.order-detail input:focus,.order-detail textarea:focus{outline:none;border:2px #8ece5c solid}.order-detail .button-group{display:flex;justify-content:flex-end}.order-detail .button-group .ok{color:#8ece5c}.order-detail .button-group .ok:hover{background-color:#8ece5c}.order-detail .button-group .cancel{color:#ce4659}.order-detail .button-group .cancel:hover{background-color:#ce4659}
+
+.daily-drinks{margin:0 auto;max-width:750px;padding-top:22px}.daily-drinks .daily-drinks-h1{text-align:left;display:inline;font-style:italic}.daily-drinks .daily-drinks-body{margin-top:22px;background-color:#051314;border:2px #ce4659 solid;padding:20px 0}
+
+html{font-family:Helvetica, Arial, sans-serif;background-color:#06171b;color:#cddfe2}html .btn{border:0;background-color:inherit;font-family:inherit;font-size:18px;padding:8px 18px;cursor:pointer}html .btn:focus{outline:none}html .btn:hover{color:#06171b !important}*{box-sizing:border-box}
+
+
+/*# sourceMappingURL=style.c42c7b7721e06d8c2c17.css.map*/
