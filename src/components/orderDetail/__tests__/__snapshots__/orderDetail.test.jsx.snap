@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderDetail /Order, Add new order view 1`] = `
+<form
+  className="order-detail"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="name"
+  >
+    Name:
+  </label>
+  <br />
+  <input
+    autoFocus={true}
+    id="name"
+    onChange={[Function]}
+    required={true}
+    type="text"
+    value=""
+  />
+  <br />
+  <label
+    htmlFor="price"
+  >
+    Price:
+  </label>
+  <br />
+  <input
+    id="price"
+    min="0"
+    onChange={[Function]}
+    required={true}
+    type="number"
+    value="0"
+  />
+  <br />
+  <label
+    htmlFor="notes"
+  >
+    Notes:
+  </label>
+  <br />
+  <textarea
+    id="notes"
+    onChange={[Function]}
+    rows="3"
+    type="textarea"
+    value=""
+    wrap="hard"
+  />
+  <div
+    className="button-group"
+  >
+    <button
+      className="btn ok"
+      type="submit"
+    >
+      Okey
+    </button>
+    <button
+      className="cancel btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`OrderDetail /Order, edit un exisited order view 1`] = `
+<form
+  className="order-detail"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="name"
+  >
+    Name:
+  </label>
+  <br />
+  <input
+    autoFocus={true}
+    id="name"
+    onChange={[Function]}
+    required={true}
+    type="text"
+    value=""
+  />
+  <br />
+  <label
+    htmlFor="price"
+  >
+    Price:
+  </label>
+  <br />
+  <input
+    id="price"
+    min="0"
+    onChange={[Function]}
+    required={true}
+    type="number"
+    value="0"
+  />
+  <br />
+  <label
+    htmlFor="notes"
+  >
+    Notes:
+  </label>
+  <br />
+  <textarea
+    id="notes"
+    onChange={[Function]}
+    rows="3"
+    type="textarea"
+    value=""
+    wrap="hard"
+  />
+  <div
+    className="button-group"
+  >
+    <button
+      className="btn ok"
+      type="submit"
+    >
+      Okey
+    </button>
+    <button
+      className="cancel btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`OrderDetail /order/0, edit iPhone X view 1`] = `
+<form
+  className="order-detail"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="name"
+  >
+    Name:
+  </label>
+  <br />
+  <input
+    autoFocus={true}
+    id="name"
+    onChange={[Function]}
+    required={true}
+    type="text"
+    value="iPhone X"
+  />
+  <br />
+  <label
+    htmlFor="price"
+  >
+    Price:
+  </label>
+  <br />
+  <input
+    id="price"
+    min="0"
+    onChange={[Function]}
+    required={true}
+    type="number"
+    value="1099.99"
+  />
+  <br />
+  <label
+    htmlFor="notes"
+  >
+    Notes:
+  </label>
+  <br />
+  <textarea
+    id="notes"
+    onChange={[Function]}
+    rows="3"
+    type="textarea"
+    value="iPhone X classic case * 1"
+    wrap="hard"
+  />
+  <div
+    className="button-group"
+  >
+    <button
+      className="btn ok"
+      type="submit"
+    >
+      Okey
+    </button>
+    <button
+      className="cancel btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Daily drinks show list 1`] = `
+<div
+  className="daily-drinks"
+>
+  <h1
+    className="daily-drinks-h1"
+  >
+    Daily Drinks
+  </h1>
+  <button
+    className="delete-order-btn btn"
+    disabled={true}
+    onClick={[Function]}
+  >
+    - Delete
+  </button>
+  <a
+    href="/order"
+    onClick={[Function]}
+  >
+    <button
+      className="new-order-btn btn"
+    >
+      + Add
+    </button>
+  </a>
+  <div
+    className="daily-drinks-body"
+  >
+    <div
+      className="empty-order-list"
+    >
+      Empty
+    </div>
+  </div>
+</div>
+`;

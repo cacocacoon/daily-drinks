@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewOrderButton default view 1`] = `
+<a
+  href="/order"
+  onClick={[Function]}
+>
+  <button
+    className="new-order-btn btn"
+  >
+    + Add
+  </button>
+</a>
+`;

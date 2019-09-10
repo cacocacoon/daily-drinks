@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete Order Button disabled view 1`] = `
+<button
+  className="delete-order-btn btn"
+  disabled={true}
+  onClick={[Function]}
+>
+  - Delete
+</button>
+`;
+
+exports[`Delete Order Button enabled view 1`] = `
+<button
+  className="delete-order-btn btn"
+  disabled={false}
+  onClick={[Function]}
+>
+  - Delete
+</button>
+`;

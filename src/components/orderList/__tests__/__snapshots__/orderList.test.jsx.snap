@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList default view 1`] = `
+<div
+  className="order-list"
+>
+  <div
+    className="order-list-head"
+  >
+    <div
+      className="checked"
+    />
+    <div
+      className="name"
+    >
+      Name
+    </div>
+    <div
+      className="price"
+    >
+      Price
+    </div>
+    <div
+      className="notes"
+    >
+      Notes
+    </div>
+  </div>
+  <a
+    className="order"
+    href="/order/0"
+    onClick={[Function]}
+  >
+    <div
+      className="checked"
+      data-index={0}
+      onClick={[Function]}
+    >
+      ○
+    </div>
+    <div
+      className="name"
+    >
+      iPhone X
+    </div>
+    <div
+      className="price"
+    >
+      1099.99
+    </div>
+    <div
+      className="notes"
+    >
+      iPhone X classic case * 1
+    </div>
+  </a>
+  <a
+    className="order"
+    href="/order/1"
+    onClick={[Function]}
+  >
+    <div
+      className="checked"
+      data-index={1}
+      onClick={[Function]}
+    >
+      ●
+    </div>
+    <div
+      className="name"
+    >
+      Electric Bike E7
+    </div>
+    <div
+      className="price"
+    >
+      2100
+    </div>
+    <div
+      className="notes"
+    >
+      if you never try, you never know
+    </div>
+  </a>
+</div>
+`;
+
+exports[`OrderList empty view 1`] = `
+<div
+  className="empty-order-list"
+>
+  Empty
+</div>
+`;
