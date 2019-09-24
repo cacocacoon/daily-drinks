@@ -32,7 +32,7 @@ export default function orderReducer(state = initState, action) {
         case CHECK_ORDER: {
             const order = state.list.filter((_, index) => index === action.payload)[0]
             order.checked = !order.checked
-            
+
             return { ...state, list: [...state.list] }
         }
         case DELETE_ORDERS: {

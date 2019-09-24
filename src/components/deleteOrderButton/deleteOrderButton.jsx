@@ -17,7 +17,7 @@ export default function DeleteOrderButton() {
 
         dispatch(deleteOrders())
     }
-    
+
     return (
         <button
             className="delete-order-btn btn"

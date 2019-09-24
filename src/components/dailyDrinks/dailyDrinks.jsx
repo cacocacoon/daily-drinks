@@ -12,17 +12,17 @@ export default function DailyDrinks() {
     return (
         <div className="daily-drinks">
             <h1 className="daily-drinks-h1">Daily Drinks</h1>
-                <Router>
-                    {showList && <DeleteOrderButton />}
-                    {showList && <NewOrderButton />}
-                    <div className="daily-drinks-body">
-                        <Switch>
-                            <Route path="/" component={OrderList} exact/>
-                            <Route path="/order/:id?" component={OrderDetail} exact/>
-                            <Redirect to="/" />
-                        </Switch>
-                    </div>
-                </Router>
+            <Router>
+                {showList && <DeleteOrderButton />}
+                {showList && <NewOrderButton />}
+                <div className="daily-drinks-body">
+                    <Switch>
+                        <Route path="/" component={OrderList} exact/>
+                        <Route path="/order/:id?" component={OrderDetail} exact/>
+                        <Redirect to="/" />
+                    </Switch>
+                </div>
+            </Router>
         </div>
     )
 }

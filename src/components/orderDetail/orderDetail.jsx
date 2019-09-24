@@ -33,13 +33,13 @@ export default function OrderDetail({ history, match }) {
         e.preventDefault()
         history.push('/');
     }
-    
+
     return (
         <form className="order-detail" onSubmit={submit}>
             <label htmlFor="name">Name:</label><br />
-            <input type="text" id="name" onChange={inputChange} value={order.name} required autoFocus/><br />
+            <input type="text" id="name" onChange={inputChange} value={order.name} required autoFocus /><br />
             <label htmlFor="price">Price:</label><br />
-            <input type="number" id="price" onChange={inputChange} value={order.price} min="0" required/><br />
+            <input type="number" id="price" onChange={inputChange} value={order.price} min="0" required /><br />
             <label htmlFor="notes">Notes:</label><br />
             <textarea type="textarea" wrap="hard" rows="3" id="notes" onChange={inputChange} value={order.notes} />
             <div className="button-group">

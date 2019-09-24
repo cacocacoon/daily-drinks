@@ -22,14 +22,14 @@ const config = {
         }]
     },
     resolve: {
-		extensions: ['.js', '.jsx']
-	},
+        extensions: ['.js', '.jsx']
+    },
     devtool: 'source-map',
     devServer: {
         historyApiFallback: true,
-		inline: true,
+        inline: true,
         contentBase: BUILD_DIR,
-		port: 8008
+        port: 8008
     },
     plugins: [
         new HtmlWebpackPlugin({

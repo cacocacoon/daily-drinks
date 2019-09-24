@@ -8,7 +8,6 @@ import './orderList.scss'
 export default function OrderList() {
     const dispatch = useDispatch()
     const orderList = useSelector(state => state.orders.list)
-
     function onCheck(e) {
         e.stopPropagation()
         e.preventDefault()
@@ -19,7 +18,7 @@ export default function OrderList() {
 
     function editOrder(e) {
         console.log('edit');
-        
+
     }
 
     useEffect(() => {
@@ -34,7 +33,7 @@ export default function OrderList() {
             </div>
         )
     }
-    
+
     return (
         <div className="order-list">
             <div className="order-list-head">
@@ -45,7 +44,7 @@ export default function OrderList() {
             </div>
             {orderList.map((order, index) => (
                 <Link key={index} to={`/order/${index}`} className="order" onClick={editOrder}>
-                    <div className="checked" onClick={onCheck} data-index={index}>{order.checked ? '●': '○'}</div>
+                    <div className="checked" onClick={onCheck} data-index={index}>{order.checked ? '●' : '○'}</div>
                     <div className="name">{order.name}</div>
                     <div className="price">{order.price}</div>
                     <div className="notes">{order.notes}</div>
